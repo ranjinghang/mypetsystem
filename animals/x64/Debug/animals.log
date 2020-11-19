@@ -1,0 +1,35 @@
+﻿  stdafx.cpp
+  ADOConn.cpp
+  animals.cpp
+  animalsDlg.cpp
+  CAdminFunctionDlg.cpp
+D:\pet\Pet\animals\animals\CAdminFunctionDlg.cpp(79,69): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\pet\Pet\animals\animals\CAdminFunctionDlg.cpp(82,58): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  CBuyDog.cpp
+  CEvaDetailDlg.cpp
+  CEVADlg.cpp
+  CHeaderCtrlCl.cpp
+  CListCtrlCl.cpp
+  CListCtrlUpdateButton.cpp
+  CMyPublicData.cpp
+  CUpdatePetDlg.cpp
+  CUploadPetDlg.cpp
+  CUserFunctionDlg.cpp
+D:\pet\Pet\animals\animals\CUserFunctionDlg.cpp(72,69): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\pet\Pet\animals\animals\CUserFunctionDlg.cpp(75,58): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\pet\Pet\animals\animals\CUserFunctionDlg.cpp(128,69): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\pet\Pet\animals\animals\CUserFunctionDlg.cpp(131,58): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\pet\Pet\animals\animals\CUserFunctionDlg.cpp(186,68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\pet\Pet\animals\animals\CUserFunctionDlg.cpp(187,68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\pet\Pet\animals\animals\CUserFunctionDlg.cpp(188,68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\pet\Pet\animals\animals\CUserFunctionDlg.cpp(191,57): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\pet\Pet\animals\animals\CUserFunctionDlg.cpp(261,68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\pet\Pet\animals\animals\CUserFunctionDlg.cpp(264,58): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  FindpwdDlg.cpp
+  LinkButton.cpp
+  LoginDlg.cpp
+  Picture.cpp
+D:\pet\Pet\animals\animals\Picture.cpp(232,32): warning C4244: “=”: 从“ULONGLONG”转换到“int”，可能丢失数据
+  RegDlg.cpp
+  正在生成代码...
+  animals.vcxproj -> D:\pet\Pet\animals\x64\Debug\animals.exe

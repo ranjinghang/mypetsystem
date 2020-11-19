@@ -1,0 +1,351 @@
+﻿  LoginDlg.cpp
+  MainCatDlg.cpp
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(126,36): error C2664: “LONG CTabCtrl::InsertItem(int,TCITEMW *)”: 无法将参数 2 从“const char [9]”转换为“TCITEMW *”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(126,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxcmn.inl(573,31): message : 参见“CTabCtrl::InsertItem”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(127,45): error C2664: “LONG CTabCtrl::InsertItem(int,TCITEMW *)”: 无法将参数 2 从“const char [15]”转换为“TCITEMW *”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(127,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxcmn.inl(573,31): message : 参见“CTabCtrl::InsertItem”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(300,34): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(300,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(304,34): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(304,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(310,61): error C2678: 二进制“+”: 没有找到接受“const char [34]”类型的左操作数的运算符(或没有可接受的转换)
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(454,16): message : 可能是“_bstr_t operator +(const wchar_t *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(444,16): message : 或    “_bstr_t operator +(const char *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(643,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(654,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(665,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const wchar_t *,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2380,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2391,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2402,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2419,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2431,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2444,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2456,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(310,61): message : 尝试匹配参数列表“(const char [34], CString)”时
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(479,26): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(479,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(480,27): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(480,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(481,25): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(481,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(485,23): error C2678: 二进制“+”: 没有找到接受“const char [2]”类型的左操作数的运算符(或没有可接受的转换)
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(454,16): message : 可能是“_bstr_t operator +(const wchar_t *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(444,16): message : 或    “_bstr_t operator +(const char *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(643,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(654,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(665,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const wchar_t *,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2380,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2391,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2402,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2419,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2431,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2444,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2456,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(485,23): message : 尝试匹配参数列表“(const char [2], CString)”时
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(489,23): error C2678: 二进制“+”: 没有找到接受“const char [2]”类型的左操作数的运算符(或没有可接受的转换)
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(454,16): message : 可能是“_bstr_t operator +(const wchar_t *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(444,16): message : 或    “_bstr_t operator +(const char *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(643,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(654,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(665,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const wchar_t *,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2380,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2391,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2402,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2419,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2431,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2444,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2456,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(489,23): message : 尝试匹配参数列表“(const char [2], CString)”时
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(492,65): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [37]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(492,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(522,59): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [37]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(522,13): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(527,63): error C2440: “初始化”: 无法从“char *”转换为“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(527,63): message : class“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(542,38): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(542,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(548,38): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(548,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(553,38): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(553,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(556,74): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [44]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(556,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(558,74): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [44]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(558,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(559,74): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [44]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(559,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(560,74): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [44]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(560,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(561,74): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [44]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(561,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(583,36): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(583,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(589,36): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(589,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(594,36): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(594,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(601,42): error C2440: “初始化”: 无法从“const char [23]”转换为“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(601,42): message : class“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(615,38): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [15]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainCatDlg.cpp(615,15): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+  MainDlg.cpp
+D:\pet\Pet\animals\animals\MainDlg.cpp(137,36): error C2664: “LONG CTabCtrl::InsertItem(int,TCITEMW *)”: 无法将参数 2 从“const char [9]”转换为“TCITEMW *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(137,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxcmn.inl(573,31): message : 参见“CTabCtrl::InsertItem”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(138,45): error C2664: “LONG CTabCtrl::InsertItem(int,TCITEMW *)”: 无法将参数 2 从“const char [15]”转换为“TCITEMW *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(138,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxcmn.inl(573,31): message : 参见“CTabCtrl::InsertItem”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(323,34): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainDlg.cpp(323,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(327,34): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainDlg.cpp(327,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(333,61): error C2678: 二进制“+”: 没有找到接受“const char [34]”类型的左操作数的运算符(或没有可接受的转换)
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(454,16): message : 可能是“_bstr_t operator +(const wchar_t *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(444,16): message : 或    “_bstr_t operator +(const char *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(643,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(654,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(665,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const wchar_t *,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2380,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2391,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2402,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2419,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2431,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2444,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2456,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\pet\Pet\animals\animals\MainDlg.cpp(333,61): message : 尝试匹配参数列表“(const char [34], CString)”时
+D:\pet\Pet\animals\animals\MainDlg.cpp(515,26): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(515,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(516,27): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(516,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(517,25): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(517,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(521,24): error C2678: 二进制“+”: 没有找到接受“const char [2]”类型的左操作数的运算符(或没有可接受的转换)
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(454,16): message : 可能是“_bstr_t operator +(const wchar_t *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(444,16): message : 或    “_bstr_t operator +(const char *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(643,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(654,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(665,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const wchar_t *,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2380,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2391,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2402,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2419,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2431,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2444,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2456,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\pet\Pet\animals\animals\MainDlg.cpp(521,24): message : 尝试匹配参数列表“(const char [2], CString)”时
+D:\pet\Pet\animals\animals\MainDlg.cpp(525,23): error C2678: 二进制“+”: 没有找到接受“const char [2]”类型的左操作数的运算符(或没有可接受的转换)
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(454,16): message : 可能是“_bstr_t operator +(const wchar_t *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(444,16): message : 或    “_bstr_t operator +(const char *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(643,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(654,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(665,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const wchar_t *,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2380,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2391,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2402,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2419,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2431,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2444,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2456,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\pet\Pet\animals\animals\MainDlg.cpp(525,23): message : 尝试匹配参数列表“(const char [2], CString)”时
+D:\pet\Pet\animals\animals\MainDlg.cpp(528,65): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [37]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(528,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(562,59): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [37]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(562,13): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(567,63): error C2440: “初始化”: 无法从“char *”转换为“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+D:\pet\Pet\animals\animals\MainDlg.cpp(567,63): message : class“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+D:\pet\Pet\animals\animals\MainDlg.cpp(582,38): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainDlg.cpp(582,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(587,38): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainDlg.cpp(587,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(592,38): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainDlg.cpp(592,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(597,38): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainDlg.cpp(597,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(600,74): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [44]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(600,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(601,74): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [44]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(601,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(602,74): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [44]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(602,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(603,74): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [44]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(603,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(604,74): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [44]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(604,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(605,74): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [44]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\MainDlg.cpp(605,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(628,36): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainDlg.cpp(628,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(633,36): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainDlg.cpp(633,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(638,36): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainDlg.cpp(638,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(643,36): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [13]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainDlg.cpp(643,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+D:\pet\Pet\animals\animals\MainDlg.cpp(650,42): error C2440: “初始化”: 无法从“const char [23]”转换为“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+D:\pet\Pet\animals\animals\MainDlg.cpp(650,42): message : class“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+D:\pet\Pet\animals\animals\MainDlg.cpp(665,38): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [15]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\MainDlg.cpp(665,15): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(2527,6): message : 参见“CWnd::MessageBoxW”的声明
+  Picture.cpp
+D:\pet\Pet\animals\animals\Picture.cpp(159,92): error C2664: “HRSRC FindResourceW(HMODULE,LPCWSTR,LPCWSTR)”: 无法将参数 3 从“LPCSTR”转换为“LPCWSTR”
+D:\pet\Pet\animals\animals\Picture.cpp(159,80): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\libloaderapi.h(642,1): message : 参见“FindResourceW”的声明
+D:\pet\Pet\animals\animals\Picture.cpp(164,95): error C2664: “int MessageBoxExW(HWND,LPCWSTR,LPCWSTR,UINT,WORD)”: 无法将参数 2 从“const char [23]”转换为“LPCWSTR”
+D:\pet\Pet\animals\animals\Picture.cpp(164,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9200,1): message : 参见“MessageBoxExW”的声明
+D:\pet\Pet\animals\animals\Picture.cpp(172,95): error C2664: “int MessageBoxExW(HWND,LPCWSTR,LPCWSTR,UINT,WORD)”: 无法将参数 2 从“const char [23]”转换为“LPCWSTR”
+D:\pet\Pet\animals\animals\Picture.cpp(172,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9200,1): message : 参见“MessageBoxExW”的声明
+D:\pet\Pet\animals\animals\Picture.cpp(180,95): error C2664: “int MessageBoxExW(HWND,LPCWSTR,LPCWSTR,UINT,WORD)”: 无法将参数 2 从“const char [23]”转换为“LPCWSTR”
+D:\pet\Pet\animals\animals\Picture.cpp(180,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9200,1): message : 参见“MessageBoxExW”的声明
+D:\pet\Pet\animals\animals\Picture.cpp(232,32): warning C4244: “=”: 从“ULONGLONG”转换到“int”，可能丢失数据
+D:\pet\Pet\animals\animals\Picture.cpp(247,77): error C2664: “int MessageBoxExW(HWND,LPCWSTR,LPCWSTR,UINT,WORD)”: 无法将参数 3 从“const char [15]”转换为“LPCWSTR”
+D:\pet\Pet\animals\animals\Picture.cpp(247,31): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9200,1): message : 参见“MessageBoxExW”的声明
+D:\pet\Pet\animals\animals\Picture.cpp(292,104): error C2664: “int MessageBoxExW(HWND,LPCWSTR,LPCWSTR,UINT,WORD)”: 无法将参数 2 从“const char [32]”转换为“LPCWSTR”
+D:\pet\Pet\animals\animals\Picture.cpp(292,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9200,1): message : 参见“MessageBoxExW”的声明
+D:\pet\Pet\animals\animals\Picture.cpp(308,110): error C2664: “int MessageBoxExW(HWND,LPCWSTR,LPCWSTR,UINT,WORD)”: 无法将参数 2 从“const char [37]”转换为“LPCWSTR”
+D:\pet\Pet\animals\animals\Picture.cpp(308,23): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9200,1): message : 参见“MessageBoxExW”的声明
+D:\pet\Pet\animals\animals\Picture.cpp(363,103): error C2664: “int MessageBoxExW(HWND,LPCWSTR,LPCWSTR,UINT,WORD)”: 无法将参数 2 从“const char [32]”转换为“LPCWSTR”
+D:\pet\Pet\animals\animals\Picture.cpp(363,21): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9200,1): message : 参见“MessageBoxExW”的声明
+D:\pet\Pet\animals\animals\Picture.cpp(415,103): error C2664: “int MessageBoxExW(HWND,LPCWSTR,LPCWSTR,UINT,WORD)”: 无法将参数 2 从“const char [32]”转换为“LPCWSTR”
+D:\pet\Pet\animals\animals\Picture.cpp(415,21): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9200,1): message : 参见“MessageBoxExW”的声明
+D:\pet\Pet\animals\animals\Picture.cpp(479,104): error C2664: “int MessageBoxExW(HWND,LPCWSTR,LPCWSTR,UINT,WORD)”: 无法将参数 2 从“const char [32]”转换为“LPCWSTR”
+D:\pet\Pet\animals\animals\Picture.cpp(479,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9200,1): message : 参见“MessageBoxExW”的声明
+D:\pet\Pet\animals\animals\Picture.cpp(495,77): error C2664: “int MessageBoxExW(HWND,LPCWSTR,LPCWSTR,UINT,WORD)”: 无法将参数 3 从“const char [15]”转换为“LPCWSTR”
+D:\pet\Pet\animals\animals\Picture.cpp(495,31): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9200,1): message : 参见“MessageBoxExW”的声明
+  RegDlg.cpp
+D:\pet\Pet\animals\animals\RegDlg.cpp(68,37): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+D:\pet\Pet\animals\animals\RegDlg.cpp(68,37): message : 尝试匹配参数列表“(const char [13])”时
+D:\pet\Pet\animals\animals\RegDlg.cpp(73,34): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+D:\pet\Pet\animals\animals\RegDlg.cpp(73,34): message : 尝试匹配参数列表“(const char [11])”时
+D:\pet\Pet\animals\animals\RegDlg.cpp(78,65): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+D:\pet\Pet\animals\animals\RegDlg.cpp(78,65): message : 尝试匹配参数列表“(const char [32])”时
+D:\pet\Pet\animals\animals\RegDlg.cpp(83,46): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+D:\pet\Pet\animals\animals\RegDlg.cpp(83,46): message : 尝试匹配参数列表“(const char [19])”时
+D:\pet\Pet\animals\animals\RegDlg.cpp(88,49): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+D:\pet\Pet\animals\animals\RegDlg.cpp(88,49): message : 尝试匹配参数列表“(const char [21])”时
+D:\pet\Pet\animals\animals\RegDlg.cpp(96,16): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [1]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\RegDlg.cpp(96,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\RegDlg.cpp(98,19): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\RegDlg.cpp(98,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\RegDlg.cpp(100,19): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\RegDlg.cpp(100,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\RegDlg.cpp(108,66): error C2678: 二进制“+”: 没有找到接受“const char [34]”类型的左操作数的运算符(或没有可接受的转换)
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(454,16): message : 可能是“_bstr_t operator +(const wchar_t *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\include\comutil.h(444,16): message : 或    “_bstr_t operator +(const char *,const _bstr_t &)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(643,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(654,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const ATL::CSimpleStringT<TCHAR,false> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\atlsimpstr.h(665,24): message : 或    “ATL::CSimpleStringT<TCHAR,false> ATL::CSimpleStringT<TCHAR,false>::operator +(const wchar_t *,const ATL::CSimpleStringT<TCHAR,false> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2380,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2391,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,const wchar_t *)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2402,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::operator +(const wchar_t *,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2419,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,char)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2431,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(char,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2444,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &,wchar_t)”[使用参数相关的查找找到]
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2456,18): message : 或    “ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +(wchar_t,const ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”[使用参数相关的查找找到]
+D:\pet\Pet\animals\animals\RegDlg.cpp(108,66): message : 尝试匹配参数列表“(const char [34], CString)”时
+D:\pet\Pet\animals\animals\RegDlg.cpp(112,38): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+D:\pet\Pet\animals\animals\RegDlg.cpp(112,38): message : 尝试匹配参数列表“(const char [13])”时
+D:\pet\Pet\animals\animals\RegDlg.cpp(118,7): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(const wchar_t *,...)”: 无法将参数 1 从“const char [118]”转换为“const wchar_t *”
+D:\pet\Pet\animals\animals\RegDlg.cpp(118,15): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\cstringt.h(2182,15): message : 参见“ATL::CStringT<wchar_t,StrTraitMFC<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format”的声明
+D:\pet\Pet\animals\animals\RegDlg.cpp(123,32): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+D:\pet\Pet\animals\animals\RegDlg.cpp(123,32): message : 尝试匹配参数列表“(const char [9])”时
+D:\pet\Pet\animals\animals\RegDlg.cpp(130,31): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+D:\pet\Pet\animals\animals\RegDlg.cpp(130,31): message : 尝试匹配参数列表“(const char [9])”时
+D:\pet\Pet\animals\animals\RegDlg.cpp(143,55): error C2664: “int CComboBox::AddString(LPCTSTR)”: 无法将参数 1 从“const char [21]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\RegDlg.cpp(143,23): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin2.inl(794,31): message : 参见“CComboBox::AddString”的声明
+D:\pet\Pet\animals\animals\RegDlg.cpp(144,55): error C2664: “int CComboBox::AddString(LPCTSTR)”: 无法将参数 1 从“const char [21]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\RegDlg.cpp(144,23): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin2.inl(794,31): message : 参见“CComboBox::AddString”的声明
+D:\pet\Pet\animals\animals\RegDlg.cpp(145,52): error C2664: “int CComboBox::AddString(LPCTSTR)”: 无法将参数 1 从“const char [19]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\RegDlg.cpp(145,23): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin2.inl(794,31): message : 参见“CComboBox::AddString”的声明
+D:\pet\Pet\animals\animals\RegDlg.cpp(146,52): error C2664: “int CComboBox::AddString(LPCTSTR)”: 无法将参数 1 从“const char [19]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\RegDlg.cpp(146,23): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin2.inl(794,31): message : 参见“CComboBox::AddString”的声明
+D:\pet\Pet\animals\animals\RegDlg.cpp(147,67): error C2664: “int CComboBox::AddString(LPCTSTR)”: 无法将参数 1 从“const char [29]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\RegDlg.cpp(147,23): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin2.inl(794,31): message : 参见“CComboBox::AddString”的声明
+D:\pet\Pet\animals\animals\RegDlg.cpp(148,55): error C2664: “int CComboBox::AddString(LPCTSTR)”: 无法将参数 1 从“const char [21]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\RegDlg.cpp(148,23): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin2.inl(794,31): message : 参见“CComboBox::AddString”的声明
+D:\pet\Pet\animals\animals\RegDlg.cpp(149,58): error C2664: “int CComboBox::AddString(LPCTSTR)”: 无法将参数 1 从“const char [23]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\RegDlg.cpp(149,23): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin2.inl(794,31): message : 参见“CComboBox::AddString”的声明
+D:\pet\Pet\animals\animals\RegDlg.cpp(150,49): error C2664: “int CComboBox::AddString(LPCTSTR)”: 无法将参数 1 从“const char [17]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\RegDlg.cpp(150,23): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin2.inl(794,31): message : 参见“CComboBox::AddString”的声明
+D:\pet\Pet\animals\animals\RegDlg.cpp(151,49): error C2664: “int CComboBox::AddString(LPCTSTR)”: 无法将参数 1 从“const char [17]”转换为“LPCTSTR”
+D:\pet\Pet\animals\animals\RegDlg.cpp(151,23): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Program Files (x86)\Microsoft\VisualStudio\commity\VC\Tools\MSVC\14.28.29333\atlmfc\include\afxwin2.inl(794,31): message : 参见“CComboBox::AddString”的声明
